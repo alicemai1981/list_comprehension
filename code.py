@@ -6,7 +6,7 @@ for j in int_list:
     sum_val = sum_val + j
 print(sum_val)
 
-# use for loop to the get same result as list comprehension  #
+# use for loop to the get same result as list comprehension, cant use Git#
 str_list2 = addition_str.split("+")
 int_list2 = []
 for k in str_list2:
