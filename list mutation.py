@@ -2,14 +2,14 @@
 alist =['a', 'b', 'c', 'd']
 print(id(alist))
 alist +=['e']
-print(alist)
 print(id(alist))
-
+print(alist)
 # use + to add element to list
-alist =['a', 'b', 'c', 'd']
-alist = alist +['e']
-print(alist)
-print(id(alist))
+blist =['a', 'b', 'c', 'd']
+print(id((blist)))
+blist = blist +['e']
+print(id(blist))
+print(blist)
 
 
 
