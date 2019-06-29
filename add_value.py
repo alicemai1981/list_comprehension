@@ -6,7 +6,9 @@ print(numbs)
 
 
 numbs2 = [1,2,3,4,5]
-
-for i in numbs2:
-    numbs2 = i+5
-    print(numbs2)
+print(id(numbs2))
+for i,s in enumerate(numbs2):
+    numbs2[i]=s+5  # the loop variable in for loop is a copy of the element.
+    # enumerate return index & value of an  iteratable , numbs2[i] allows accessing the element in numbs2
+print(id(numbs2))
+print(numbs2)
